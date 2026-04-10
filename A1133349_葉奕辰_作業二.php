@@ -11,7 +11,7 @@ if (isset($_POST['login_submit'])) {
     $user = $_POST['username'] ?? '';
     $pass = $_POST['password'] ?? '';
     
-    if ($user === 'admin' && $pass === '1234') {
+    if ($user === 'a1133349' && $pass === '2758') {
         $_SESSION['login'] = true;
     } else {
         $login_error = "帳號或密碼錯誤！";
